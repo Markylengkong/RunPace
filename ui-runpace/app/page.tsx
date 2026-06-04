@@ -46,7 +46,7 @@ export default function RunPaceDashboard() {
         alert('Gagal menghitung: ' + data.message);
       }
     } catch (error) {
-      alert('Koneksi ke backend gagal! Pastikan server python3 api/index.py menyala di Terminal 1.');
+      alert('Gagal terhubung ke server. Silakan coba beberapa saat lagi.');
     } finally {
       setLoading(false);
     }

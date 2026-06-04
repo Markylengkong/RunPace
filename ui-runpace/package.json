@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:all": "python3 api/index.py & next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
